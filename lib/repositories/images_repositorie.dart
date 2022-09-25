@@ -15,7 +15,7 @@ class ImagesRepositorie extends ChangeNotifier {
   }
 
   _readDirectlyAPI() async {
-    String uri = 'https://api.nasa.gov/planetary/apod?count=20&api_key=C09Atnmtxqs9KJ8grxHtV3F2wqmrICPy9QfuJp0P';
+    String uri = '';
 
     final response = await http.get(Uri.parse(uri));
 
